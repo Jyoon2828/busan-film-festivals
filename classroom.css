@@ -1,0 +1,74 @@
+/* Clear reading, large touch controls, and a compact tablet writing desk. */
+:root{color:#493c57}
+.hero-copy>p,.festival-home .hero-copy>p,.explore-welcome p,.festival-ticket .card-body p,.section-head p,.mission p,.media-description>p,.guide-text{color:#695a75}
+.brand small,.saved,.eyebrow,.festival-category,.card-progress,.home-tags span,.stamp-count,.album-link,.helper,.credit,.source-caption,.bottom-footer,.bottom-footer .text-btn{color:#705a80}
+.field>label,.form-step,.text-btn,.secondary,.choice,.word-item strong,.media-source,.media-source a,.media-description h3,.media-thumb,.dialog-foot,.source-inline .source-link,.thinking,.evidence-box{color:#674b80}
+input[type=text],input[type=url],textarea,select,.reading p,table,.evidence-pick{color:#493c57}
+.field small{color:#75647e}
+input::placeholder,textarea::placeholder{color:#7b7084}
+.primary{background:#7854b1;box-shadow:0 4px 0 #5d3d8d}
+.primary:hover{box-shadow:0 5px 0 #5d3d8d}
+.collect-btn.collected,.nav-btn.active .n{background:#7854b1;color:white}
+.reading h3,.section-head h2,.explore-welcome h2,.festival-ticket h3{color:#593e70}
+.brand{color:#593e70}.brand small{letter-spacing:.04em}
+.compare-choices{display:flex;gap:10px;flex-wrap:wrap;margin:0 0 17px}
+.compare-choices .pill{min-height:48px;border:2px solid #e0d2e9;background:#fffdf8;padding:9px 15px;color:#634b75}
+.compare-choices .active{background:#eee4fb;border-color:#9b7abd}
+thead th small{display:block;font-size:.73rem;margin-top:4px;color:#725581}
+.compare-notes .panel{padding:15px 20px}.compare-notes .field{margin-bottom:0}
+.compare-wrap table{min-width:0;table-layout:fixed}.compare-wrap th:first-child{width:18%}
+.compare-wrap td,.compare-wrap th{overflow-wrap:anywhere}
+.composer{grid-template-columns:minmax(0,1.2fr) minmax(270px,.8fr);gap:28px}
+.composer .composer-editor{padding:0;display:flex;flex-direction:column;max-height:calc(100svh - 265px);min-height:400px;overflow:hidden}
+.compose-tabs{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:5px;padding:12px 12px 10px;background:#f7eefb;border-bottom:1px dashed #ddcde8;flex:none}
+.compose-tabs button{display:flex;align-items:center;justify-content:center;gap:5px;min-height:46px;padding:7px 4px;border:1px solid #decee9;border-radius:12px;background:#fffcf7;color:#685179;font-size:.82rem}
+.compose-tabs button span{display:grid;place-items:center;width:22px;height:22px;border-radius:50%;background:#eee5f7;font-size:.72rem;flex:none}
+.compose-tabs button.active{background:#7854b1;border-color:#7854b1;color:white}
+.compose-tabs button.active span{background:#fff2;color:white}
+.composer-body{padding:20px 22px;overflow-y:auto;overscroll-behavior:contain;flex:1;scrollbar-color:#c6aeda #fbf6ff}
+.composer-body h3{font-size:1.15rem;color:#5b3d73;margin-bottom:10px}
+.compose-navigation{display:flex;justify-content:space-between;align-items:center;gap:12px;flex:none;padding:12px 18px;background:#fff8ed;border-top:1px dashed #dfcfe7}
+.compose-navigation>span{font-size:.78rem;color:#766181}
+.compose-navigation .secondary,.compose-navigation .primary{min-height:44px;padding:8px 17px;font-size:.86rem}
+.writing-field{margin-bottom:17px}.writing-field .field{margin-bottom:4px}
+.writing-field textarea{min-height:78px;font-size:1rem}
+.sentence-help{font-size:.74rem;color:#76588d}.sentence-help summary{min-height:38px;cursor:pointer;display:list-item;padding-top:7px;margin-left:18px}
+.sentence-help p{background:#f6edfb;padding:10px;border-radius:9px;margin-top:7px;font-size:.83rem;line-height:1.7}
+.sentence-help .text-btn{font-size:.75rem;padding:6px 0}
+.chosen-summary{background:#f5ecfb;border:1px dashed #cfb8df;border-radius:15px;padding:15px;font-size:.86rem;line-height:1.8}.chosen-summary strong{color:#634078}.chosen-summary p{color:#715d7f}
+.preview-panel{top:80px;max-width:420px;width:100%;justify-self:center}
+.preview-panel .preview-paper{height:clamp(280px,calc(100svh - 390px),475px);width:auto;max-width:100%;margin:0 auto;aspect-ratio:210/297;justify-self:center}
+.preview-panel .preview-paper img{width:100%;height:100%;object-fit:contain}
+.preview-panel .color-row{justify-content:center;margin:14px 0}
+.preview-panel .actions{justify-content:center;margin-top:8px;gap:8px}
+.preview-panel .actions .secondary,.preview-panel .actions .text-btn{font-size:.8rem;min-height:43px;padding:8px 12px}
+.preview-panel .helper{text-align:center;line-height:1.7;margin-top:12px}
+.swatch{width:40px;height:40px}.nav-btn{white-space:nowrap}
+.result-layout>.preview-paper{max-width:460px;width:100%;justify-self:center}
+.big-view .dialog-foot{flex:none}
+@media(min-width:761px) and (max-height:850px){
+ .festival-home{padding:8px 0 15px;gap:24px}.festival-home h1{font-size:2.7rem;line-height:1.25;margin:9px 0 14px}.festival-hero-board{height:330px}.poster-parade{top:83px}.board-label{top:62px}.mini-poster img{height:112px}.home-friends{height:159px;width:248px;bottom:2px}.home-tags{margin-top:13px}.hero-copy .actions{margin-top:18px}.mission-row{margin-top:8px}.mission{padding:12px 15px}.mission strong{font-size:.9rem}.mission p{font-size:.75rem}.mission>span{width:44px;height:44px;font-size:1.3rem}
+ .section-head{margin-bottom:15px}.section-head h2{font-size:1.6rem}.section-head p{font-size:.86rem}
+ .composer .composer-editor{max-height:calc(100svh - 265px);min-height:360px}.composer-body{padding:15px 18px}.composer-body .section-divider{margin:17px 0}.composer-body .select-grid .choice{min-height:66px}.composer-body .writing-field{margin-bottom:10px}.composer-body .field{gap:5px;margin-bottom:9px}.composer-body .helper{margin-bottom:10px}.compose-tabs{padding:9px}.compare-wrap td,.compare-wrap th{padding:10px 13px}.compare-notes{gap:18px;margin-top:16px}.compare-notes textarea{min-height:76px}
+ .dialog-body{max-height:calc(91svh - 153px)}.detail-tabs{margin-bottom:12px}.reading{padding:15px 18px}.reading h3{margin-bottom:9px}.reading p{font-size:1rem;line-height:1.8}.thinking{margin-top:11px;padding:9px 13px}.evidence-box{margin-top:12px;padding:11px 15px}.evidence-box p{margin:5px 0 9px}.detail-aside .detail-photo{height:190px}
+}
+@media(max-width:1100px) and (min-width:761px){
+ .brand{font-size:1rem}.topbar{height:66px}.navbar{padding-top:6px;padding-bottom:6px}.composer{gap:18px;grid-template-columns:minmax(0,1.25fr) minmax(260px,.75fr)}.compose-tabs button{font-size:.73rem;gap:3px}.compose-tabs button span{width:19px;height:19px}.composer .composer-editor{max-height:calc(100svh - 245px)}.preview-panel .preview-paper{height:clamp(270px,calc(100svh - 355px),440px)}.compare-wrap{font-size:.8rem}.compare-choices .pill{font-size:.8rem;padding:7px 10px}
+}
+@media(max-width:760px){
+ .composer{grid-template-columns:1fr}.composer .composer-editor{max-height:70svh;min-height:430px}.compose-tabs button{font-size:.74rem;gap:4px}.composer-body{padding:17px}.preview-panel .preview-paper{height:auto;width:260px;max-height:none}.preview-panel{position:static}.compare-choices{gap:7px}.compare-choices .pill{font-size:.75rem;min-height:45px;padding:8px 10px}.compare-wrap table{min-width:590px}.compare-notes{gap:13px}.brand{font-size:.93rem}.dialog-foot{flex-wrap:wrap}.dialog-foot>.actions{margin-left:auto}.topbar .tools .icon-btn{font-size:.68rem;padding:7px 9px}
+}
+@media(prefers-reduced-motion:reduce){*{scroll-behavior:auto!important}}
+@media(min-width:761px){
+ body{--bar-height:75px;--nav-height:66px;--footer-height:56px}
+ .topbar{height:var(--bar-height)}.navbar{height:var(--nav-height);align-items:center}
+ .bottom-footer{height:var(--footer-height);padding:4px 30px;align-items:center}
+ body[data-screen="2"] main{height:calc(100svh - var(--bar-height) - var(--nav-height) - var(--footer-height));min-height:0;display:flex;flex-direction:column;padding-top:18px;padding-bottom:12px}
+ body[data-screen="2"] .section-head{flex:none;margin-bottom:14px}
+ body[data-screen="2"] .composer{flex:1;min-height:0}
+ body[data-screen="2"] .composer-editor{height:100%;min-height:0;max-height:none}
+ body[data-screen="2"] .preview-panel{height:100%;min-height:0;display:grid;grid-template-rows:minmax(0,1fr) auto auto auto;position:static;top:auto}
+ body[data-screen="2"] .preview-paper{height:100%;max-height:100%;min-height:0;width:auto;aspect-ratio:210/297;place-self:center}
+ body[data-screen="2"] .preview-panel .helper{margin-bottom:0}
+}
+@media(min-width:761px) and (max-width:1100px){body{--bar-height:66px;--nav-height:60px;--footer-height:54px}}
