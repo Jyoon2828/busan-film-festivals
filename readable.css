@@ -1,0 +1,114 @@
+/* Larger type throughout the student reading and writing experience. */
+:root{font-size:22px}
+.primary,.secondary,.icon-btn,.soft-btn{font-size:.9rem;min-height:52px}
+.text-btn{font-size:.86rem;min-height:48px}
+.topbar .icon-btn,.tools .icon-btn{font-size:.86rem;min-height:48px}
+.brand{font-size:1.15rem}.brand small{font-size:.68rem}.saved{font-size:.76rem}
+.nav-btn{font-size:.95rem;padding:9px 18px;min-height:52px}.nav-btn .n{font-size:.82rem;width:29px;height:29px}
+.hero-copy>p,.festival-home .hero-copy>p{font-size:1.04rem;line-height:1.8}
+.eyebrow,.badge{font-size:.82rem}.home-tags span{font-size:.76rem}
+.mission strong{font-size:1rem}.mission p{font-size:.84rem;line-height:1.65}
+.explore-welcome p,.section-head p{font-size:.98rem;line-height:1.65}
+.explore-welcome h2{font-size:1.7rem}.stamp-count{font-size:.84rem}.stamp-count b{font-size:1.35rem}
+.festival-ticket h3{font-size:1.22rem;min-height:2.6em;line-height:1.4}
+.festival-ticket .card-body p{font-size:.97rem;line-height:1.6}
+.festival-category{font-size:.82rem}.festival-code{font-size:.86rem}
+.festival-ticket .primary{font-size:.91rem;min-height:52px;padding:9px 12px}
+.album-link{font-size:.85rem;min-height:48px;padding:9px 2px}
+.card-progress{font-size:.76rem;line-height:1.65}
+.poster-zoom{font-size:.73rem;padding:4px 10px}.year-sticker{width:70px;height:70px;font-size:1rem;padding-top:10px}.year-sticker small{font-size:.62rem}
+.festival-bottom,.footnote{font-size:.82rem;line-height:1.65}.festival-bottom .secondary{font-size:.9rem}
+.dialog-head h2{font-size:1.25rem}.dialog-head .icon-btn{font-size:.85rem}
+.dialog-body{max-height:calc(91svh - 180px)}
+.dialog-foot{font-size:.8rem;line-height:1.5}
+.dialog-foot .primary,.dialog-foot .secondary{font-size:.86rem;min-height:50px;padding:8px 14px}
+.detail-layout{grid-template-columns:235px minmax(0,1fr);gap:22px}
+.detail-aside dl{font-size:.9rem;line-height:1.65;grid-template-columns:65px 1fr}
+.detail-aside .text-btn{font-size:.88rem}.detail-aside .credit{font-size:.76rem;line-height:1.6}
+.detail-tabs{grid-template-columns:1fr 1fr;gap:8px}
+.detail-tabs button{font-size:.91rem;min-height:55px;padding:10px}
+.reading h3{font-size:1.3rem}.reading p{font-size:1.05rem;line-height:1.85}
+.thinking{font-size:.96rem;line-height:1.8;padding:13px 16px}
+.evidence-box>strong{font-size:.97rem}.evidence-box p{font-size:.96rem;line-height:1.8}
+.collect-btn{font-size:.95rem;min-height:54px}
+.source-inline .source-link,.source-link{font-size:.8rem;line-height:1.7}
+.source-link small{font-size:.76rem}
+.field>label{font-size:.97rem;line-height:1.55}.field small{font-size:.78rem}
+input[type=text],input[type=url],textarea,select,.writing-field textarea{font-size:1rem;line-height:1.75}
+.writing-field textarea{min-height:100px}.field textarea{min-height:100px}
+.helper,.mini{font-size:.83rem;line-height:1.75}
+.sentence-help{font-size:.83rem}.sentence-help summary{min-height:44px}
+.sentence-help p{font-size:.94rem}.sentence-help .text-btn{font-size:.86rem}
+.composer-body h3{font-size:1.13rem;line-height:1.5}
+.compose-tabs button{font-size:.84rem;min-height:53px;gap:5px}
+.compose-tabs button span{font-size:.77rem;width:25px;height:25px}
+.compose-navigation>span{font-size:.86rem}
+.compose-navigation .secondary,.compose-navigation .primary{font-size:.9rem;min-height:51px}
+.choice{font-size:.89rem;min-height:88px;line-height:1.6}
+.chosen-summary{font-size:.95rem}.form-step{font-size:1rem}
+.evidence-pick{font-size:.95rem;line-height:1.75;padding:15px}.evidence-pick small{font-size:.79rem}
+.evidence-pick input{width:23px;height:23px}.empty-note{font-size:.94rem}
+.preview-panel .actions .secondary,.preview-panel .actions .text-btn{font-size:.83rem;min-height:49px}
+.preview-panel .helper{font-size:.8rem;line-height:1.65}
+.compare-choices .pill{font-size:.88rem;min-height:52px}
+table{font-size:.95rem;line-height:1.7}.compare-wrap th,.compare-wrap td{padding:12px}
+thead th small{font-size:.82rem}.compare-notes .panel{padding:15px 18px}
+.status-check,.validation,.checks,.result-actions p,.guide-text{font-size:.95rem;line-height:1.75}
+.word-item p{font-size:1rem;line-height:1.8}.word-item strong{font-size:1.05rem}
+.credit,.source-caption{font-size:.78rem;line-height:1.65}
+.bottom-footer{font-size:.76rem;line-height:1.5}.bottom-footer .text-btn{font-size:.78rem;min-height:44px;padding:7px 9px}
+.media-modal .dialog-body{max-height:calc(93svh - 180px)}
+.media-layout{grid-template-columns:minmax(0,1.45fr) minmax(290px,1fr);gap:20px}
+.media-description h3{font-size:1.16rem;line-height:1.5}
+.media-description>p{font-size:.96rem;line-height:1.75}
+.media-description .thinking{font-size:.9rem;line-height:1.7}
+.media-source,.media-source a{font-size:.79rem;line-height:1.7}.media-source strong{font-size:.85rem}
+.use-media{font-size:.86rem;min-height:52px}
+.media-thumbnails{justify-content:flex-start;gap:12px;padding:3px 4px 9px;scroll-behavior:smooth}
+.media-thumb{flex-basis:112px;min-height:105px;font-size:.73rem;line-height:1.4}
+.media-thumb img{height:59px}.media-position{font-size:.9rem}
+.toast{font-size:.95rem;line-height:1.7}
+.festival-ticket h3,.detail-aside dd,.media-description h3{overflow-wrap:anywhere}
+dialog[open]{display:flex;flex-direction:column;max-height:93svh}
+.dialog-head,.dialog-foot{flex:none}
+.dialog-body,.media-modal .dialog-body{flex:1 1 auto;min-height:0;max-height:none}
+.big-view[open]{height:98svh;max-height:98svh}
+.big-view .dialog-body{height:auto;max-height:none;min-height:0;flex:1}
+@media(min-width:761px){body{--bar-height:82px;--nav-height:74px;--footer-height:66px}}
+@media(min-width:761px) and (max-width:1100px){
+ body{--bar-height:76px;--nav-height:72px;--footer-height:66px}
+ .topbar{padding-left:20px;padding-right:20px}.brand{font-size:1.05rem}
+ .nav-btn{padding:9px 13px;gap:8px}.navbar{gap:8px}
+ .section-head h2{font-size:1.55rem}.section-head p{font-size:.93rem}
+ body[data-screen="2"] .section-head .eyebrow{display:none}
+ .compose-tabs{padding:8px;gap:5px}.compose-tabs button{font-size:.8rem;gap:4px}.compose-tabs button span{width:22px;height:22px;font-size:.73rem}
+ .composer-body{padding:16px}.composer-body .select-grid .choice{min-height:88px}
+ .preview-panel .actions .secondary,.preview-panel .actions .text-btn{padding:8px 9px;font-size:.79rem}
+ .detail-layout{grid-template-columns:210px minmax(0,1fr);gap:18px}
+ .media-layout{grid-template-columns:minmax(0,1.25fr) minmax(280px,1fr);gap:18px}
+ .festival-ticket .card-body{padding:16px}.festival-ticket h3{font-size:1.14rem;min-height:2.9em}
+ .festival-ticket .actions{gap:5px}.festival-ticket .primary{font-size:.86rem}
+ .festival-ticket .album-link{font-size:.82rem}.festival-ticket .card-body p{font-size:.91rem}
+ .explore-welcome{gap:12px}.welcome-friends{width:85px}.explore-welcome h2{font-size:1.48rem}
+}
+@media(max-width:760px){
+ :root{font-size:20px}.topbar{height:auto;min-height:78px;padding:10px 12px;gap:5px}
+ .brand{font-size:1rem;gap:7px}.brand small{font-size:.61rem}.brand-mark{width:38px;height:38px;flex:none}
+ .tools .icon-btn{font-size:.8rem;padding:7px 9px}.topbar .words-tool{display:none}
+ .navbar{padding:8px 4px;gap:4px}.nav-btn{padding:8px 4px;font-size:.78rem;gap:4px;min-height:53px}
+ .nav-btn .n{width:22px;height:22px;font-size:.75rem}.nav-btn:nth-child(4){gap:3px}
+ .detail-layout,.media-layout{grid-template-columns:1fr}.detail-aside dl{font-size:.95rem}
+ .dialog-head{padding:13px}.dialog-head h2{font-size:1.06rem}.dialog-body{padding:15px;max-height:none}
+ .dialog-foot{padding:10px 12px;gap:7px}.dialog-foot .primary,.dialog-foot .secondary{font-size:.82rem;min-height:48px;padding:8px 12px}
+ .media-modal .dialog-body{max-height:none}.media-display{height:350px}
+ .media-description h3{font-size:1.25rem}.media-description>p{font-size:1rem}
+ .media-thumb{flex-basis:107px;min-height:108px;font-size:.76rem}
+ .compose-tabs button{font-size:.78rem;gap:3px}.compose-tabs button span{width:20px;height:20px;font-size:.73rem}
+ .composer .composer-editor{min-height:470px;max-height:76svh}.composer-body{padding:15px}
+ .compose-navigation{padding:10px}.compose-navigation .primary,.compose-navigation .secondary{font-size:.87rem}
+ .compare-choices .pill{font-size:.85rem}.compare-wrap table{min-width:640px}
+ .explore-welcome>div{padding-right:45px}.explore-welcome h2{font-size:1.48rem}
+ .welcome-friends{width:65px;height:62px}.festival-ticket h3{font-size:1.32rem;min-height:0}
+ .festival-ticket .card-body p{font-size:1rem}.festival-ticket .primary{font-size:.96rem}.album-link{font-size:.94rem}
+ .bottom-footer{font-size:.8rem}.bottom-footer .text-btn{font-size:.8rem}
+}

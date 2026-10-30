@@ -206,17 +206,17 @@ function makeCardData(){const f=state.form;
 async function buildCard(){
  await document.fonts.load('24px Jua').catch(()=>{});
  const data=makeCardData(),f=state.form,theme=state.theme,c=document.createElement('canvas');c.width=1485;c.height=2100;const ctx=c.getContext('2d');ctx.fillStyle='#fffdf7';ctx.fillRect(0,0,c.width,c.height);
- ctx.fillStyle=theme;rr(ctx,60,60,1365,176,26);ctx.fill();put(ctx,'BUSAN CINEMA CLUB   /   '+D.episode,90,81,1250,22,'#ffffffcc',800,1.3);put(ctx,data.tag,90,119,1250,29,'#fff',700,1.4);
- let titleSize=56;ctx.font=`900 ${titleSize}px ${font}`;while(ctx.measureText(data.title).width>1290&&titleSize>32){titleSize--;ctx.font=`900 ${titleSize}px ${font}`;}
- put(ctx,data.title,85,269,1315,titleSize,'#27383d',900,1.2);put(ctx,[f.group,f.author].filter(Boolean).join(' · ')||'나의 부산 영화 탐험',88,343,1290,25,'#647478',700,1.2);
+ ctx.fillStyle=theme;rr(ctx,60,60,1365,176,26);ctx.fill();put(ctx,'BUSAN CINEMA CLUB   /   '+D.episode,90,81,1250,26,'#ffffffcc',800,1.3);put(ctx,data.tag,90,119,1250,34,'#fff',700,1.4);
+ let titleSize=64;ctx.font=`900 ${titleSize}px ${font}`;while(ctx.measureText(data.title).width>1290&&titleSize>32){titleSize--;ctx.font=`900 ${titleSize}px ${font}`;}
+ put(ctx,data.title,85,269,1315,titleSize,'#27383d',900,1.2);put(ctx,[f.group,f.author].filter(Boolean).join(' · ')||'나의 부산 영화 탐험',88,343,1290,30,'#647478',700,1.2);
  const im=await loadImage(data.photo);let y=400;
  ctx.save();rr(ctx,85,y,1315,350,22);ctx.clip();if(im)cover(ctx,im,85,y,1315,350);else{ctx.fillStyle=theme+'18';ctx.fillRect(85,y,1315,350);ctx.strokeStyle=theme;ctx.lineWidth=8;rr(ctx,585,y+71,255,164,18);ctx.stroke();ctx.beginPath();ctx.arc(710,y+153,48,0,Math.PI*2);ctx.stroke();ctx.fillStyle=theme;rr(ctx,641,y+43,105,35,8);ctx.fill();put(ctx,'READY, ACTION!',555,y+266,650,30,theme,900,1.2);}ctx.restore();
- put(ctx,data.credit||'이야기를 만드는 나만의 영화 카드',90,y+359,1300,19,'#647478',500,1.2);y+=410;
- const available=1920-y,rows=data.rows.map(([label,text])=>({label,text:text?.trim()||'여기에 내 말로 정리해 주세요.'}));let size=32,gap=18;
+ put(ctx,data.credit||'이야기를 만드는 나만의 영화 카드',90,y+359,1300,23,'#647478',500,1.2);y+=410;
+ const available=1920-y,rows=data.rows.map(([label,text])=>({label,text:text?.trim()||'여기에 내 말로 정리해 주세요.'}));let size=38,gap=18;
  const total=()=>{ctx.font=`500 ${size}px ${font}`;return rows.reduce((sum,r)=>sum+38+lines(ctx,r.text,1235).length*size*1.45+gap*2,0);};
  while(total()>available&&size>17){size--;gap=Math.max(9,gap-.5);}
- for(let i=0;i<rows.length;i++){const r=rows[i];ctx.font=`500 ${size}px ${font}`;const h=38+lines(ctx,r.text,1235).length*size*1.45+gap*2;ctx.fillStyle=i%2===0?theme+'0d':'#f0f1e9';rr(ctx,85,y,1315,h-10,13);ctx.fill();put(ctx,r.label,111,y+gap,1263,24,theme,800,1.2);put(ctx,r.text,111,y+gap+37,1235,size,r.text.startsWith('여기에')?'#9aa39c':'#27383d',500,1.45);y+=h;}
- ctx.strokeStyle='#d5dbd4';ctx.lineWidth=2;ctx.beginPath();ctx.moveTo(85,1961);ctx.lineTo(1400,1961);ctx.stroke();let sourceText=data.sources.join(' / ');if(!sourceText)sourceText='앱의 자료 출처에서 원문을 확인할 수 있어요.';put(ctx,'자료: '+sourceText,90,1978,1290,17,'#647478',500,1.4);put(ctx,isFestival?'2026년 공식 안내 사례 · 자료를 바탕으로 내 생각을 정리한 카드':'실제 촬영 사례를 조사하고 새로운 장면을 제안한 카드 · 장소 사진과 영화 장면을 구분해요',90,2040,1290,17,'#647478',500,1.3);
+ for(let i=0;i<rows.length;i++){const r=rows[i];ctx.font=`500 ${size}px ${font}`;const h=38+lines(ctx,r.text,1235).length*size*1.45+gap*2;ctx.fillStyle=i%2===0?theme+'0d':'#f0f1e9';rr(ctx,85,y,1315,h-10,13);ctx.fill();put(ctx,r.label,111,y+gap,1263,28,theme,800,1.2);put(ctx,r.text,111,y+gap+37,1235,size,r.text.startsWith('여기에')?'#9aa39c':'#27383d',500,1.45);y+=h;}
+ ctx.strokeStyle='#d5dbd4';ctx.lineWidth=2;ctx.beginPath();ctx.moveTo(85,1961);ctx.lineTo(1400,1961);ctx.stroke();let sourceText=[...new Set(data.sources.map(value=>value.split(' · ')[0]))].join(' / ');if(sourceText)sourceText+=' · 원문은 앱의 자료 출처에서 확인';if(!sourceText)sourceText='앱의 자료 출처에서 원문을 확인할 수 있어요.';put(ctx,'자료: '+sourceText,90,1978,1290,21,'#647478',500,1.4);put(ctx,isFestival?'2026년 공식 안내 사례 · 자료를 바탕으로 내 생각을 정리한 카드':'실제 촬영 사례를 조사하고 새로운 장면을 제안한 카드 · 장소 사진과 영화 장면을 구분해요',90,2040,1290,21,'#647478',500,1.3);
  return c;
 }
 async function refreshCard(){const generation=++generating;try{const c=await buildCard();if(generation!==generating)return;cardURL=c.toDataURL('image/png');const im=$('#card-preview');if(im){im.src=cardURL;im.hidden=false;$('#card-placeholder').hidden=true;}}catch(e){const p=$('#card-placeholder');if(p){p.textContent='미리보기를 만들지 못했어요. 새로고침해 주세요.';p.hidden=false;}cardURL='';}}
@@ -233,6 +233,7 @@ function showMedia(id,index=0,back=false){
  const body=`<div class="media-layout"><div class="media-display ${m.type==='공식 포스터'?'portrait-media':''}"><img src="${m.src}" alt="${esc(m.alt)}"></div><aside class="media-description"><span class="badge">${m.type}</span><h3>${esc(m.title)}</h3><p>${esc(m.caption)}</p><div class="thinking"><b>사진을 보며 생각해요</b><br>${esc(m.question)}</div><div class="media-source"><strong>제공 · 출처</strong><p>${esc(m.credit)}</p><a href="${esc(safeURL(m.sourceURL))}" target="_blank" rel="noopener noreferrer">공식 원문에서 확인 ↗</a></div>${state.step===2&&state.form.focus===id?`<button class="primary use-media" data-action="media-use">${selected?'✓ 카드에 사용 중':'이 이미지를 내 카드에 넣기'}</button>`:''}</aside></div><div class="media-thumbnails" aria-label="포스터와 사진 선택">${list.map((v,i)=>`<button class="media-thumb ${i===n?'active':''}" data-action="gallery" data-id="${id}" data-index="${i}" data-back="${back}" aria-label="${v.title}" aria-pressed="${i===n}"><img src="${v.src}" alt=""><span>${i===0?'공식 포스터':v.type.replace('공식 ','')}</span></button>`).join('')}</div>`;
  openDialog(it.name+' · 포스터와 사진첩',body,`<div class="actions"><button class="secondary" data-action="media-prev" ${n===0?'disabled':''}>← 이전</button><span class="media-position">${n+1} / ${list.length}</span><button class="secondary" data-action="media-next" ${n===list.length-1?'disabled':''}>다음 →</button></div><button class="primary" data-action="${back?'photo-back':'close'}">${back?'조사 자료로 돌아가기':'사진첩 닫기'}</button>`);
  dialog.className='media-modal';galleryId=id;galleryIndex=n;galleryBack=back;
+ requestAnimationFrame(()=>{const rail=dialog.querySelector('.media-thumbnails'),active=rail?.querySelector('.active');if(rail&&active)rail.scrollLeft=active.offsetLeft-rail.offsetLeft-rail.clientWidth/2+active.clientWidth/2;});
 }
 
 render();

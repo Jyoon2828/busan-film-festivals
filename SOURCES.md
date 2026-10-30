@@ -51,3 +51,20 @@
 - `assets/city.svg`, `assets/icon.svg`: 기존 수업용 코드 일러스트.
 
 공식 이미지마다 앱 사진첩에 제공 기관과 원문 링크가 표시됩니다.
+
+## 추가 사진 자료
+
+확인일: 2026년 10월 30일. 부산국제영화제의 추가 사진 4장은 공식 프레스 자료실에서 제공하는 역대 기록 사진입니다. 2026년 행사 사진으로 표기하지 않습니다. BIKY와 BISFF 추가 사진 6장은 2026년 공식 현장 기록입니다.
+
+| 파일 | 자료 | 제공 | 원문 |
+|---|---|---|---|
+| `assets/biff-press-03.webp` | 영화의전당 야외 행사장 | 부산국제영화제 프레스 자료실 · 역대 보도사진 | [공식 출처](https://press.biff.kr/kor/addon/10000001/page.asp?page_num=5739) |
+| `assets/biff-press-04.webp` | 영화 이야기로 가득한 상영관 | 부산국제영화제 프레스 자료실 · 역대 보도사진 | [공식 출처](https://press.biff.kr/kor/addon/10000001/page.asp?page_num=5739) |
+| `assets/biff-press-05.webp` | 레드카펫에서 만나는 영화인 | 부산국제영화제 프레스 자료실 · 역대 보도사진 | [공식 출처](https://press.biff.kr/kor/addon/10000001/page.asp?page_num=5739) |
+| `assets/biff-press-07.webp` | 많은 사람이 함께 즐기는 축제 | 부산국제영화제 프레스 자료실 · 역대 보도사진 | [공식 출처](https://press.biff.kr/kor/addon/10000001/page.asp?page_num=5739) |
+| `assets/biky-album-talk.webp` | 영화를 만든 사람과 이야기 나눠요 | 부산국제어린이청소년영화제 · 2026 공식 사진첩 | [공식 출처](https://www.biky.or.kr/kor/artyboard/mboard.asp?strBoardID=BAZF_DNMS) |
+| `assets/biky-new-stars.webp` | 서로의 이야기에 귀 기울여요 | 부산국제어린이청소년영화제 · 2026 공식 사진첩 | [공식 출처](https://www.biky.or.kr/kor/artyboard/mboard.asp?strBoardID=BAZF_DNMS) |
+| `assets/biky-atlas-talk.webp` | 상영이 끝나도 이어지는 영화 이야기 | 부산국제어린이청소년영화제 · 2026 공식 사진첩 | [공식 출처](https://www.biky.or.kr/kor/artyboard/mboard.asp?strBoardID=BAZF_DNMS) |
+| `assets/bisff-day2-3.webp` | 작품을 소개하는 무대 | 부산국제단편영화제 · 2026 DAY 02 현장기록 | [공식 출처](https://bisff.org/bbs/board.php?bo_table=2026_findnotes&wr_id=3) |
+| `assets/bisff-day2-4.webp` | 상영관에서 함께 나누는 대화 | 부산국제단편영화제 · 2026 DAY 02 현장기록 | [공식 출처](https://bisff.org/bbs/board.php?bo_table=2026_findnotes&wr_id=3) |
+| `assets/bisff-day2-5.webp` | 관객도 영화제의 주인공 | 부산국제단편영화제 · 2026 DAY 02 현장기록 | [공식 출처](https://bisff.org/bbs/board.php?bo_table=2026_findnotes&wr_id=3) |

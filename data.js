@@ -119,6 +119,46 @@ window.LESSON = {
           "question": "사람들은 무엇을 기다리거나 살펴보고 있을까요?",
           "caption": "영화제 현장에 모인 관객을 살펴보세요. 공식 자료실에 공개된 보도사진이에요.",
           "alt": "관객이 모인 영화제 현장"
+        },
+        {
+          "src": "assets/biff-press-03.webp",
+          "title": "영화의전당 야외 행사장",
+          "type": "역대 현장사진",
+          "credit": "부산국제영화제 프레스 자료실 · 역대 보도사진",
+          "sourceURL": "https://press.biff.kr/kor/addon/10000001/page.asp?page_num=5739",
+          "question": "야외 행사장에서는 실내 영화관과 다른 어떤 경험을 할 수 있을까요?",
+          "caption": "영화의전당의 큰 지붕 아래 관객들이 모여 있는 영화제 기록 사진이에요.",
+          "alt": "영화의전당 야외 행사장"
+        },
+        {
+          "src": "assets/biff-press-04.webp",
+          "title": "영화 이야기로 가득한 상영관",
+          "type": "역대 현장사진",
+          "credit": "부산국제영화제 프레스 자료실 · 역대 보도사진",
+          "sourceURL": "https://press.biff.kr/kor/addon/10000001/page.asp?page_num=5739",
+          "question": "무대와 객석의 사람들은 어떤 이야기를 주고받을까요?",
+          "caption": "무대에 앉은 사람들과 객석의 관객들이 함께하는 영화제 기록 사진이에요.",
+          "alt": "영화 이야기로 가득한 상영관"
+        },
+        {
+          "src": "assets/biff-press-05.webp",
+          "title": "레드카펫에서 만나는 영화인",
+          "type": "역대 현장사진",
+          "credit": "부산국제영화제 프레스 자료실 · 역대 보도사진",
+          "sourceURL": "https://press.biff.kr/kor/addon/10000001/page.asp?page_num=5739",
+          "question": "영화 상영 외에도 사람들이 영화제를 찾는 까닭은 무엇일까요?",
+          "caption": "레드카펫을 걷는 영화인과 주변에 모인 관객·사진기자들의 모습이에요.",
+          "alt": "레드카펫에서 만나는 영화인"
+        },
+        {
+          "src": "assets/biff-press-07.webp",
+          "title": "많은 사람이 함께 즐기는 축제",
+          "type": "역대 현장사진",
+          "credit": "부산국제영화제 프레스 자료실 · 역대 보도사진",
+          "sourceURL": "https://press.biff.kr/kor/addon/10000001/page.asp?page_num=5739",
+          "question": "많은 관객이 부산을 찾으면 우리 고장에는 어떤 일이 생길까요?",
+          "caption": "관객과 영화인이 한자리에 모인 영화제 기록 사진이에요.",
+          "alt": "많은 사람이 함께 즐기는 축제"
         }
       ]
     },
@@ -264,6 +304,36 @@ window.LESSON = {
           "question": "친구들의 영화 만들기를 돕는 캐릭터는 어떤 일을 할까요?",
           "caption": "친구들을 위해 스태프가 된 캐릭터 씽키예요.",
           "alt": "공식 캐릭터 · 씽키"
+        },
+        {
+          "src": "assets/biky-album-talk.webp",
+          "title": "영화를 만든 사람과 이야기 나눠요",
+          "type": "공식 현장사진",
+          "credit": "부산국제어린이청소년영화제 · 2026 공식 사진첩",
+          "sourceURL": "https://www.biky.or.kr/kor/artyboard/mboard.asp?strBoardID=BAZF_DNMS",
+          "question": "영화가 끝난 뒤 만든 사람에게 물어보고 싶은 것은 무엇인가요?",
+          "caption": "2026년 관객과의 대화에서 마이크를 들고 영화 이야기를 나누는 모습이에요.",
+          "alt": "영화를 만든 사람과 이야기 나눠요"
+        },
+        {
+          "src": "assets/biky-new-stars.webp",
+          "title": "서로의 이야기에 귀 기울여요",
+          "type": "공식 현장사진",
+          "credit": "부산국제어린이청소년영화제 · 2026 공식 사진첩",
+          "sourceURL": "https://www.biky.or.kr/kor/artyboard/mboard.asp?strBoardID=BAZF_DNMS",
+          "question": "질문하고 듣는 사람들의 표정과 자세에서 무엇을 알 수 있나요?",
+          "caption": "2026년 새로운 별빛 하나 프로그램의 관객과의 대화 현장이에요.",
+          "alt": "서로의 이야기에 귀 기울여요"
+        },
+        {
+          "src": "assets/biky-atlas-talk.webp",
+          "title": "상영이 끝나도 이어지는 영화 이야기",
+          "type": "공식 현장사진",
+          "credit": "부산국제어린이청소년영화제 · 2026 공식 사진첩",
+          "sourceURL": "https://www.biky.or.kr/kor/artyboard/mboard.asp?strBoardID=BAZF_DNMS",
+          "question": "영화를 혼자 볼 때와 다른 사람의 생각을 들을 때 어떤 점이 다를까요?",
+          "caption": "2026년 우주의 아틀라스 상영과 연결된 관객과의 대화 사진이에요.",
+          "alt": "상영이 끝나도 이어지는 영화 이야기"
         }
       ]
     },
@@ -369,6 +439,36 @@ window.LESSON = {
           "question": "관객들의 표정과 자세에서 무엇을 알 수 있을까요?",
           "caption": "2026년 영화제 둘째 날, 객석에 앉은 관객들의 모습이에요.",
           "alt": "2026 BISFF 객석 풍경"
+        },
+        {
+          "src": "assets/bisff-day2-3.webp",
+          "title": "작품을 소개하는 무대",
+          "type": "공식 현장사진",
+          "credit": "부산국제단편영화제 · 2026 DAY 02 현장기록",
+          "sourceURL": "https://bisff.org/bbs/board.php?bo_table=2026_findnotes&wr_id=3",
+          "question": "이 작품을 만든 사람들에게 어떤 질문을 하고 싶나요?",
+          "caption": "2026년 영화제 둘째 날, 국제경쟁 프로그램 무대에 선 사람들의 모습이에요.",
+          "alt": "작품을 소개하는 무대"
+        },
+        {
+          "src": "assets/bisff-day2-4.webp",
+          "title": "상영관에서 함께 나누는 대화",
+          "type": "공식 현장사진",
+          "credit": "부산국제단편영화제 · 2026 DAY 02 현장기록",
+          "sourceURL": "https://bisff.org/bbs/board.php?bo_table=2026_findnotes&wr_id=3",
+          "question": "스크린·무대·객석은 영화제를 즐기는 데 어떤 역할을 할까요?",
+          "caption": "2026년 영화제 둘째 날의 상영관과 관객과의 대화 현장이에요.",
+          "alt": "상영관에서 함께 나누는 대화"
+        },
+        {
+          "src": "assets/bisff-day2-5.webp",
+          "title": "관객도 영화제의 주인공",
+          "type": "공식 현장사진",
+          "credit": "부산국제단편영화제 · 2026 DAY 02 현장기록",
+          "sourceURL": "https://bisff.org/bbs/board.php?bo_table=2026_findnotes&wr_id=3",
+          "question": "관객이 질문하면 영화를 이해하는 데 어떤 도움이 될까요?",
+          "caption": "2026년 영화제 둘째 날, 객석에서 마이크를 들고 이야기하는 관객의 모습이에요.",
+          "alt": "관객도 영화제의 주인공"
         }
       ]
     }
@@ -399,5 +499,5 @@ window.LESSON = {
       "내 생각을 뒷받침하는 자료나 사실이에요."
     ]
   ],
-  "note": "포스터는 모두 2026년 공식 자료예요. 사진첩에서 각 이미지의 설명과 출처를 확인할 수 있어요."
+  "note": "포스터 3종은 2026년 공식 자료예요. 현장사진에는 역대 행사 기록도 포함돼요. 사진첩에서 각 사진의 설명과 출처를 확인할 수 있어요."
 };
